@@ -1,0 +1,14 @@
+{
+  "id": "globalMenu",
+  "name": "Global Menu",
+  "capabilities": ["dankbar-widget", "global-menu", "dbusmenu"],
+  "category": "utilities",
+  "repo": "https://github.com/phu142857/dms-global-menu",
+  "author": "phu142857",
+  "description": "macOS-style application menu for DMS on Niri with native GTK Wayland and DBusMenu support",
+  "dependencies": ["python", "python-dbus", "python-gobject", "niri", "libdbusmenu-glib", "appmenu-gtk-module"],
+  "compositors": ["niri"],
+  "distro": ["any"],
+  "screenshot": "https://raw.githubusercontent.com/phu142857/dms-global-menu/main/assets/screenshot.png",
+  "requires_dms": ">=2.0.0"
+}
